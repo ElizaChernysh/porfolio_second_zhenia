@@ -1,10 +1,12 @@
 $input-search-background: #e5d1e1;
 $input-search-height: 40px;
 .header {
+    background: $primary2;
     &__wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 20px 0px;
     }
     &__logo-block {
         display: flex;
@@ -24,7 +26,7 @@ $input-search-height: 40px;
         align-items: center;
         background: $input-search-background;
         border-radius: 40px;
-        padding: 10px 20px;
+        padding: 0px 20px;
     }
     &__search-icon {
         margin: 5px;
