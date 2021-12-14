@@ -1,0 +1,26 @@
+{
+    "name": "porfolio_second_zhenia",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "styles": "node-sass -w ./src/scss -o ./src/css",
+        "browsersync": "browser-sync start --server --files '**/*'"
+    },
+
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ElizaChernysh/porfolio_second_zhenia.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ElizaChernysh/porfolio_second_zhenia/issues"
+    },
+    "homepage": "https://github.com/ElizaChernysh/porfolio_second_zhenia#readme",
+    "dependencies": {
+        "node-sass": "^7.0.0"
+    }
+}
