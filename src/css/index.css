@@ -3,6 +3,9 @@ html {
   line-height: 10px;
   color: #171617; }
 
+body {
+  margin: 0px; }
+
 h1,
 h2,
 h3 {
@@ -13,3 +16,69 @@ a {
   color: #171617; }
   a:hover {
     text-decoration: underline; }
+
+.callblack-block {
+  display: flex;
+  align-items: center; }
+  .callblack-block__tel-number {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #171617;
+    margin-right: 40px; }
+  .callblack-block__callback-button {
+    border-color: #e0a4d3 !important;
+    background: #ffffff; }
+
+.default-button {
+  cursor: pointer;
+  border-radius: 40px;
+  color: #171617;
+  padding: 12px 25px;
+  border: 2px solid;
+  font-size: 1.4rem;
+  line-height: 1.6rem; }
+
+.header-navigation {
+  background: #b0acaf; }
+  .header-navigation__link {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #2b282b; }
+    .header-navigation__link:not(:last-child) {
+      margin-right: 30px; }
+  .header-navigation__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17px 0px; }
+
+.header {
+  background: #ffffff; }
+  .header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px; }
+  .header__logo-block {
+    display: flex;
+    align-items: center; }
+  .header__logo-title {
+    font-size: 3.6rem;
+    font-weight: bold;
+    line-height: 4.2rem;
+    letter-spacing: 0.1em;
+    color: #e0a4d3;
+    margin-left: 20px; }
+  .header__search-block {
+    display: flex;
+    align-items: center;
+    background: #e5d1e1;
+    border-radius: 40px;
+    padding: 0px 20px; }
+  .header__search-icon {
+    margin: 5px; }
+  .header__search-input {
+    background: none;
+    outline: none;
+    border: none;
+    height: 40px; }
